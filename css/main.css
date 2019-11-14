@@ -1,0 +1,35 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-image: linear-gradient(rgb(255, 247, 170), rgb(216, 208, 99));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.center {
+    text-align: center;
+    margin: 0 auto;
+}
+
+th, td {
+    padding: 50px;
+    border-collapse: separate;
+    border-spacing: 5px;
+}
+
+div {
+	width: 570px;
+	height: 280px;
+	
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  	
+	margin: auto;
+}
