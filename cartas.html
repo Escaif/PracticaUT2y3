@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="css/main.css" type="text/css" rel="stylesheet">
+        <title>Carta más alta</title>
+    </head>
+    <body>
+        <div class="divc">
+            <h1 class="center">Carta más alta</h1><br>
+            <p class="center">Por favor, haga click en el botón para comenzar el juego.</p>
+             <table class="center">
+                    <tr>
+                        <td colspan="2"><h2><a href="index.html">Página principal</a></h2></td>
+                    </tr>
+                <tr>
+                    <td><h1 id="jugador1"></h1></td>
+                    <td><h1 id="jugador2"></h1></td>
+                </tr>
+                <tr>
+                    <td><div class="carta">
+                        <table class="contenido"><tr><td></td><h3 id="resultado1"></h3></td></tr><td><h4 id="suma1"></td><tr></tr></table>
+                        </div></td>
+                    <td><div class="carta">
+                        <table class="contenido"><tr><td></td><h3 id="resultado2"></h3></td></tr><td><h4 id="suma2"></td><tr></tr></table>
+                    </div></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <h2 id="victoria"></h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                    <button id="botonJugar" onclick="juegoCartas()">Jugar</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <script src="js/cartas.js"></script>
+    </body>
+</html>
